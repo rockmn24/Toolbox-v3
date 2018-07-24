@@ -506,7 +506,7 @@ def main():
     app.processEvents()
 
     # Simulate something that takes time
-    time.sleep(2)
+    #time.sleep(2) #why was this here?
 
     window = mainwindow()
     window.setWindowTitle("Toolbox v{}".format(__version__))
